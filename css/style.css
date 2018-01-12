@@ -1,0 +1,56 @@
+.slider {
+  width: 80%;
+  height: 0;
+  padding-bottom: 18%;
+  margin: auto auto;
+  background-color: gray;
+}
+
+/* .item { */
+
+/* width: 30%;
+  height: 0; */
+
+/* width: 60%;
+  margin: auto auto;
+} */
+
+/* .slider[data-ratio="16:9"] {
+  padding: 56.25%
+} */
+
+/* .slider .item {
+  height: 200px;
+  width: 200px;
+  margin: auto auto;
+  position: relative;
+  /* text-align: center; */
+
+/* line-height: 300px; */
+
+/*} */
+
+.controllers {
+  text-align: center;
+}
+
+.controllers a {
+  /* display: inline-block; */
+  color: black;
+  text-decoration: none;
+  margin: 4px;
+  font-size: 30px;
+  background-color: #000;
+  padding: 4px 10px;
+  /* margin-top: 30px; */
+  color: #fff;
+}
+
+/* .controllers .perv a {
+  left: -10px;
+  z-index: 10;
+}
+
+.controllers .next a {
+  right: -10px;
+} */
