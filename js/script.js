@@ -8,7 +8,7 @@
         nextArrow: '.slider-container .next',
         centerPadding: '8%',
         focusOnSelect: true,
-        slidesToShow: 3, // 1次顯示幾個選項
+        slidesToShow: 4, // 1次顯示幾個選項
         slidesToScroll: 3,
         infinite: true,
         // fade: true,    //圖片淡出淡入
