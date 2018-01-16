@@ -15,6 +15,7 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- 註解以下此行，則可進行正常換頁，但youtube連結則會取消內嵌，改為頁面跳頁 -->
   <script type="text/javascript" src="js/youtube.js"></script>
 
 
@@ -34,6 +35,7 @@
     background-repeat: no-repeat;
     padding: 15px;
     background-clip: text;
+    margin: auto;
   }
 </style>
 
@@ -44,18 +46,21 @@
     <div class="slider-container">
 
       <div id="mList">
-
         <a href="https://www.youtube.com/watch?v=5mBMcvG3C5g"><img src="icon/醫療資訊/檢驗報告查詢.png"></a>
         <a href="https://www.youtube.com/watch?v=5mBMcvG3C5g"><img src="icon/醫療資訊/IVF療程進度.png"></a>
-        <a href="http://192.168.20.96/demonstrate/embryoDetail.html"><img src="icon/醫療資訊/卵胚資訊.png"></a>
+        <!-- <a href="http://192.168.20.96/demonstrate/embryoDetail.html"><img src="icon/醫療資訊/卵胚資訊.png"></a> -->
         <a href="https://www.youtube.com/watch?v=5mBMcvG3C5g"><img src="icon/醫療資訊/預產期推估.png"></a>
+      </div>
 
+      <div id="mList2">
+        <a href="http://192.168.20.96/demonstrate/embryoDetail.html"><img src="icon/醫療資訊/卵胚資訊.png"></a>
       </div>
 
       <div id="mPlayer">
         <div> </div>
         <!--要有空白，才會有ltghtbox youtube-->
       </div>
+
     </div>
 
     <br><a href="http://192.168.20.96/demonstrate/main.html">首頁</a></br>

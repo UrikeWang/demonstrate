@@ -20,6 +20,8 @@ by John E Maddox
 
 /* EOF demo */
 
+/* 當層可跳出lightbox youtube */
+
 #mList A {
   margin: 10px;
   width: 200px;
@@ -37,6 +39,29 @@ by John E Maddox
 /* media list title overlay */
 
 #mList A DIV {
+  visibility: visible;
+  background: rgba(0, 0, 0, .8);
+}
+
+/* 當層可跳到下一層分支點選 */
+
+#mList2 A {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  line-height: 155px;
+  /* match height */
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  /* border: 1px solid #000; */
+  display: inline-table;
+}
+
+/* media list title overlay */
+
+#mList2 A DIV {
   visibility: visible;
   background: rgba(0, 0, 0, .8);
 }
