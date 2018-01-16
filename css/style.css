@@ -10,6 +10,15 @@
   /* float: middle; */
 }
 
+#grad1 {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-clip: text;
+}
+
+.slder-container {}
+
 /* .item {
   width: 30%;
   height: 0;
