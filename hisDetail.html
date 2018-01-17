@@ -11,49 +11,48 @@
   <link rel="stylesheet" type="text/css" href="css/slick.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/youtube.css" />
+  <style type="text/css">
+    img {
+
+      /* 輪播圖片尺寸 */
+      width: 100%;
+      height: auto;
+      margin: auto auto;
+      position: relative;
+    }
+
+    #grad1 {
+      background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+      background-repeat: no-repeat;
+      padding: 15px;
+      background-clip: text;
+      margin: auto;
+    }
+  </style>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- 註解以下此行，則可進行正常換頁，但youtube連結則會取消內嵌，改為頁面跳頁 -->
   <script type="text/javascript" src="js/youtube.js"></script>
-
-
 </head>
-<style type="text/css">
-  img {
-
-    /* 輪播圖片尺寸 */
-    width: 70%;
-    height: auto;
-    margin: auto auto;
-    position: relative;
-  }
-
-  #grad1 {
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-    background-repeat: no-repeat;
-    padding: 15px;
-    background-clip: text;
-    margin: auto;
-  }
-</style>
 
 <body>
   <div id="grad1">
     <h1><font face="標楷體">醫療資訊</font></h1>
 
-    <div class="slider-container">
-
+    <!-- <div class="slider-container"> -->
+    <div class="wrap">
       <div id="mList">
-        <a href="https://www.youtube.com/watch?v=5mBMcvG3C5g"><img src="icon/醫療資訊/檢驗報告查詢.png"></a>
-        <a href="https://www.youtube.com/watch?v=5mBMcvG3C5g"><img src="icon/醫療資訊/IVF療程進度.png"></a>
+        <!-- href可直接接影片ID -->
+        <a href="5mBMcvG3C5g" class="listLayout"><img src="icon/醫療資訊/檢驗報告查詢.png"></a>
+        <a href="HRjMID2-c_0" class="listLayout"><img src="icon/醫療資訊/IVF療程進度.png"></a>
         <!-- <a href="http://192.168.20.96/demonstrate/embryoDetail.html"><img src="icon/醫療資訊/卵胚資訊.png"></a> -->
-        <a href="https://www.youtube.com/watch?v=5mBMcvG3C5g"><img src="icon/醫療資訊/預產期推估.png"></a>
+        <a href="lOA9HYV0-Hw" class="listLayout"><img src="icon/醫療資訊/預產期推估.png"></a>
       </div>
 
       <div id="mList2">
-        <a href="http://192.168.20.96/demonstrate/embryoDetail.html"><img src="icon/醫療資訊/卵胚資訊.png"></a>
+        <a href="http://192.168.20.96/demonstrate/embryoDetail.html" class="listLayout"><img src="icon/醫療資訊/卵胚資訊.png"></a>
       </div>
 
       <div id="mPlayer">
@@ -62,6 +61,8 @@
       </div>
 
     </div>
+
+    <!-- </div> -->
 
     <br><a href="http://192.168.20.96/demonstrate/main.html">首頁</a></br>
     <a href="https://www.google.com.tw/">Google page</a>

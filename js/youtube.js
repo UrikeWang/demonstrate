@@ -3,10 +3,11 @@ SimpleYouTubePlayer
 by John E Maddox
 */
 
-$(document).ready(function(){
+$(document).ready(function() {
 
   // display video player
-  $('#mList A').on('click',function(e){
+  $('#mList A').on('click', function(e) {
+    // $('#wrap').on('click', function(e) {
 
     e.preventDefault();
 
@@ -15,10 +16,10 @@ $(document).ready(function(){
 
     // display video or go to youtube depending on window size
     // this is an attempt to load videos on mobile devices in the youtube app
-    if($(window).width() > 800){
+    if ($(window).width() > 800) {
 
       // get video id
-      var i = u.substring(u.search('=')+1,u.length);
+      var i = u.substring(u.search('=') + 1, u.length);
 
       // build player
       $('#mPlayer DIV').html('<iframe width="760" height="515" src="https://www.youtube.com/embed/' + i + '" frameborder="0" allowfullscreen></iframe>');
@@ -26,13 +27,13 @@ $(document).ready(function(){
       // display player
       $('#mPlayer').fadeIn(500);
 
-    }else{
+    } else {
       window.location.href = u;
     }
   }); // eof display player
 
   // hide video player
-  $('#mPlayer').on('click',function(e){
+  $('#mPlayer').on('click', function(e) {
 
     // hide player
     $('#mPlayer').fadeOut(500);

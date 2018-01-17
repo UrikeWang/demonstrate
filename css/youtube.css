@@ -7,14 +7,14 @@ by John E Maddox
 
 /* BOF For demo, centers video list on screen */
 
-#mList {
+#wrap {
   max-width: 295px;
   margin: auto;
 }
 
 @media screen and (orientation: landscape) and (min-width: 801px) {
-  #mList {
-    max-width: 1000px;
+  #wrap {
+    max-width: 80%;
   }
 }
 
@@ -22,34 +22,64 @@ by John E Maddox
 
 /* 當層可跳出lightbox youtube */
 
-#mList A {
+/* #mList A {
   margin: 10px;
   width: 200px;
   height: 200px;
-  line-height: 155px;
-  /* match height */
-  color: #FFF;
+  line-height: 155px; */
+
+/* match height */
+
+/* color: #FFF;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
-  /* border: 1px solid #000; */
-  display: inline-table;
-}
+  text-decoration: none; */
+
+/* border: 1px solid #000; */
+
+/* display: inline-table;
+} */
 
 /* media list title overlay */
 
-#mList A DIV {
+/* #mList A DIV {
   visibility: visible;
   background: rgba(0, 0, 0, .8);
-}
+} */
 
 /* 當層可跳到下一層分支點選 */
 
-#mList2 A {
+/* #mList2 A {
   margin: 10px;
   width: 200px;
   height: 200px;
-  line-height: 155px;
+  line-height: 155px; */
+
+/* match height */
+
+/* color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; */
+
+/* border: 1px solid #000; */
+
+/* display: inline-table;
+} */
+
+/* media list title overlay */
+
+/* #mList2 A DIV {
+  visibility: visible;
+  background: rgba(0, 0, 0, .8);
+} */
+
+.wrap A {
+  margin: 10px;
+  width: 13%;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* line-height: 155px; */
   /* match height */
   color: #FFF;
   font-weight: bold;
@@ -61,9 +91,13 @@ by John E Maddox
 
 /* media list title overlay */
 
-#mList2 A DIV {
+.wrap .listLayout {
   visibility: visible;
-  background: rgba(0, 0, 0, .8);
+  /* background: rgba(0, 0, 0, .8); */
+}
+
+#mList A {
+  border: 1px solid #000;
 }
 
 /* On hover actions */
@@ -73,7 +107,14 @@ by John E Maddox
 }
 
 #mList A:hover {
-  /* border: 1px solid #F00; */
+  border: 1px solid #F00;
+}
+
+/* 移到mList區域內時，border就會變色 */
+
+#mList A:hover .border {
+  border: 1px solid #F00;
+  background: #000;
 }
 
 /* === popup media player === */
