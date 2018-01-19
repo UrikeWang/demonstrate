@@ -85,7 +85,7 @@ by John E Maddox
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   display: inline-table;
 }
 
@@ -97,7 +97,7 @@ by John E Maddox
 }
 
 #mList A {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 /* On hover actions */
@@ -109,7 +109,8 @@ by John E Maddox
 /* 移到mList區域內時，border就會變色 */
 
 #mList A:hover {
-  border: 1px solid #F00;
+  border: 1px solid #FFEE93;
+  background-color: #FFEE93;
 }
 
 /* #mList A:hover .border {
